@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-<footer>
-    <p>Project created by <a href="#">Raghvendra Singh</a></p>
-</footer>
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
