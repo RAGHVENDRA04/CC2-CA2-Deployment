@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `${APIUrl}/auth/login`;
+            const url = `https://cc-lovat-kappa.vercel.app/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
